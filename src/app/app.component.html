@@ -1,0 +1,17 @@
+
+
+<ng-container >
+  <mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" opened class="example-sidenav"
+                 [fixedInViewport]="options.value.fixed" [fixedTopGap]="options.value.top"
+                 [fixedBottomGap]="options.value.bottom">
+     <app-navbar></app-navbar>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <button mat-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</ng-container>
+

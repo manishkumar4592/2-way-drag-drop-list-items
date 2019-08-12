@@ -1,0 +1,130 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+$border-radius: 999rem !default;
+// Responsive--------------------------------
+// Responsive--------------------------------
+
+$ipad-landscape: "(min-width: 992px) and (max-width: 1199px)";
+$ipad-portrait: "(min-width: 768px) and (max-width: 1024px)";
+$mobile: "(max-width: 767px)";
+
+$nav-color:#4b4b4b;
+$white-color:#ffffff;
+
+.h-20 {
+  height: 20% !important;
+}
+
+.h-65 {
+  height: 65% !important;
+}
+
+.mat-drawer-inner-container{
+  overflow: visible;
+}
+mat-accordion{
+  mat-expansion-panel{
+    position: relative;
+    box-shadow: none;
+    overflow: visible;
+    transition: none !important;
+    margin: 16px 0 !important;
+    mat-expansion-panel-header{
+
+      transition: none !important;
+      width: 90px;
+      height: 90px !important;
+      min-height: 90px !important;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+      mat-panel-title{
+        font-family: 'Source Sans Pro', sans-serif ;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -0.27px;
+        text-align: center;
+        color:$nav-color;
+        display: block;
+        margin: 0;
+        flex-grow: inherit;
+        // svg{
+        //   display: block;
+        //   margin: 0 auto;
+        //   path{
+        //     fill:$nav-color;
+        //   }
+
+        // }
+        span{
+          display:block;
+        }
+
+      }
+      &:hover{
+        border-radius: 9px;
+        box-shadow: 0 5px 15px 0 rgba(7, 118, 179, 0.3);
+        background-image: linear-gradient(135deg, #5cbb34, #268200) !important;
+        mat-panel-title{
+          color:$white-color;
+           svg{
+
+          path{
+            fill:$white-color;
+            // stroke:$white-color;
+          }
+
+
+        }
+        }
+      }
+    }
+    &.mat-expanded, &:hover{
+      transition: none !important;
+      mat-expansion-panel-header{
+        border-radius: 9px;
+        box-shadow: 0 5px 15px 0 rgba(7, 118, 179, 0.3);
+        background-image: linear-gradient(135deg, #5cbb34, #268200);
+        transition: none !important;
+        mat-panel-title{
+          color:$white-color;
+          svg{
+            path{
+              fill:$white-color;
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
+// responsive scss create//
+
+//ipad (min-width: 992px) and (max-width: 1199px) view//
+@media #{$ipad-landscape} {
+
+
+}
+
+//ipad (min-width: 768px) and (max-width: 1024px) view//
+@media #{$ipad-portrait} {
+
+}
+
+// max-width: 767px view //
+@media #{$mobile} {
+
+   }

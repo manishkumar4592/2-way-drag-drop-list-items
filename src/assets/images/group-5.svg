@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20">
+    <defs>
+        <linearGradient id="a" x1="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#5CBB34"/>
+            <stop offset="100%" stop-color="#268200"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill-rule="nonzero" d="M-3 0h20v20H-3z"/>
+        <path fill="#FFF" stroke="url(#a)" d="M12.567 5.262H1.433v12.357c0 1.039.825 1.881 1.834 1.881h7.466c1.009 0 1.834-.842 1.834-1.881V5.262z"/>
+        <path fill="url(#a)" fill-rule="nonzero" d="M8.4 0H5.6c-.772 0-1.4.641-1.4 1.429v.476H1.4c-.772 0-1.4.64-1.4 1.428v2.381h14v-2.38c0-.788-.628-1.43-1.4-1.43H9.8V1.43C9.8.64 9.172 0 8.4 0z"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M5.133 1.429c0-.263.21-.477.467-.477h2.8c.257 0 .467.214.467.477v.476H5.133v-.476zM12.6 2.857c.257 0 .467.213.467.476v1.429H.933V3.333c0-.263.21-.476.467-.476h11.2z"/>
+        <path fill="url(#a)" d="M3.733 6.667h1v1h-1zM3.733 8.571h1v9.524h-1zM9.333 6.667h1v9.524h-1zM9.333 17.143h1v1h-1zM6.533 6.667h1v11.429h-1z"/>
+    </g>
+</svg>

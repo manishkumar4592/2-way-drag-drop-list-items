@@ -1,0 +1,66 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+$border-radius: 999rem !default;
+// Responsive--------------------------------
+// Responsive--------------------------------
+
+$ipad-landscape: "(min-width: 992px) and (max-width: 1199px)";
+$ipad-portrait: "(min-width: 768px) and (max-width: 1024px)";
+$mobile: "(max-width: 767px)";
+$main-bg-color:#f4f5f9;
+
+mat-sidenav-container{
+  background:$main-bg-color;
+  mat-sidenav{
+    width:150px;
+      border-right: none;
+      box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+      overflow-y: visible;
+
+  }
+
+}
+
+
+// responsive scss create//
+
+//ipad (min-width: 992px) and (max-width: 1199px) view//
+@media #{$ipad-landscape} {
+
+
+}
+
+//ipad (min-width: 768px) and (max-width: 1024px) view//
+@media #{$ipad-portrait} {
+
+}
+
+// max-width: 767px view //
+@media #{$mobile} {
+
+   }
+
+
+
+
+// responsive scss create//
+
+//ipad (min-width: 992px) and (max-width: 1199px) view//
+@media #{$ipad-landscape} {
+
+
+}
+
+//ipad (min-width: 768px) and (max-width: 1024px) view//
+@media #{$ipad-portrait} {
+
+}
+
+// max-width: 767px view //
+@media #{$mobile} {
+
+   }

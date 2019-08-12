@@ -1,0 +1,859 @@
+<div class="container">
+  <div class="row">
+    <div class="col m12 s12 xl12 l12">
+      <mat-card class="example-card">
+        <div class="row">
+          <div class="col-lg-3">
+            <mat-card-title>Search</mat-card-title>
+          </div>
+          <div class="col-lg-6">
+            <form class="example-form ">
+              <mat-form-field appearance="outline">
+                <mat-icon matPrefix>search</mat-icon>
+                <input type="text" matInput placeholder="Search tires">
+              </mat-form-field>
+            </form>
+          </div>
+          <div class="col-lg-3">
+            <mat-list>
+              <mat-list-item>
+                <a routerLink="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                    <defs>
+                      <linearGradient id="a" x1="0%" y1="0%" y2="100%">
+                        <stop offset="0%" stop-color="#5CBB34" />
+                        <stop offset="100%" stop-color="#268200" />
+                      </linearGradient>
+                    </defs>
+                    <g fill="#4a4a4a" fill-rule="nonzero" transform="translate(-33 -7)">
+                      <path
+                        d="M56.706 16.87l-1.754-.298a9.902 9.902 0 0 0-.705-1.701l1.034-1.446a1.539 1.539 0 0 0-.167-1.989l-1.556-1.555a1.532 1.532 0 0 0-1.983-.167l-1.45 1.033a9.8 9.8 0 0 0-1.765-.725l-.292-1.733A1.542 1.542 0 0 0 46.544 7h-2.197c-.757 0-1.4.543-1.524 1.29l-.303 1.774a9.658 9.658 0 0 0-1.696.715l-1.436-1.034a1.532 1.532 0 0 0-.897-.287c-.413 0-.804.162-1.091.454l-1.56 1.556a1.545 1.545 0 0 0-.168 1.988l1.044 1.467a9.672 9.672 0 0 0-.694 1.706l-1.733.293A1.542 1.542 0 0 0 33 18.446v2.197c0 .757.543 1.399 1.29 1.524l1.774.303c.182.584.422 1.153.715 1.696l-1.028 1.43a1.539 1.539 0 0 0 .167 1.989l1.555 1.555a1.532 1.532 0 0 0 1.983.167l1.467-1.044c.527.277 1.08.501 1.649.679l.292 1.753c.126.747.768 1.29 1.524 1.29h2.203c.757 0 1.399-.543 1.524-1.29l.297-1.753a9.902 9.902 0 0 0 1.702-.705l1.445 1.033c.261.188.575.287.898.287.413 0 .799-.161 1.091-.454l1.555-1.555a1.545 1.545 0 0 0 .167-1.988l-1.033-1.451a9.831 9.831 0 0 0 .705-1.702l1.753-.292a1.542 1.542 0 0 0 1.29-1.524v-2.197a1.523 1.523 0 0 0-1.28-1.524zm-.12 3.72a.135.135 0 0 1-.115.137l-2.192.365a.7.7 0 0 0-.564.517 8.355 8.355 0 0 1-.908 2.186c-.141.24-.13.538.031.768l1.29 1.816a.142.142 0 0 1-.016.177l-1.556 1.556a.133.133 0 0 1-.099.041.128.128 0 0 1-.078-.026l-1.811-1.289a.705.705 0 0 0-.767-.031c-.684.407-1.42.71-2.187.908a.693.693 0 0 0-.517.564l-.37 2.192a.135.135 0 0 1-.136.115h-2.197a.135.135 0 0 1-.136-.115l-.366-2.192a.7.7 0 0 0-.516-.564 8.676 8.676 0 0 1-2.14-.877.722.722 0 0 0-.355-.094.687.687 0 0 0-.407.13l-1.827 1.3a.155.155 0 0 1-.078.026.14.14 0 0 1-.1-.041l-1.555-1.556a.142.142 0 0 1-.015-.177l1.284-1.8a.715.715 0 0 0 .031-.773 8.276 8.276 0 0 1-.919-2.182.715.715 0 0 0-.563-.516l-2.208-.376a.135.135 0 0 1-.115-.136v-2.197c0-.068.047-.125.115-.136l2.176-.365a.706.706 0 0 0 .57-.522c.192-.767.49-1.509.892-2.192a.697.697 0 0 0-.037-.762l-1.3-1.827a.142.142 0 0 1 .016-.177l1.556-1.556a.133.133 0 0 1 .099-.042c.031 0 .057.01.078.027l1.8 1.284c.23.161.533.172.773.03a8.276 8.276 0 0 1 2.182-.918.715.715 0 0 0 .517-.563l.375-2.208a.135.135 0 0 1 .136-.115h2.197c.068 0 .126.047.136.115l.365 2.176c.047.277.25.501.522.57.788.197 1.54.505 2.24.918.24.14.537.13.767-.032l1.8-1.294a.155.155 0 0 1 .078-.026.14.14 0 0 1 .1.042l1.555 1.555c.047.047.052.12.016.177l-1.29 1.812a.705.705 0 0 0-.03.767c.406.683.709 1.42.907 2.187a.693.693 0 0 0 .564.516l2.192.37c.068.011.115.069.115.137v2.197h-.005z" />
+                      <path
+                        d="M45.495 14.098a5.395 5.395 0 0 0-5.392 5.392 5.395 5.395 0 0 0 5.392 5.391 5.395 5.395 0 0 0 5.391-5.391 5.395 5.395 0 0 0-5.391-5.392zm0 9.374a3.985 3.985 0 0 1-3.982-3.982 3.985 3.985 0 0 1 3.982-3.983 3.985 3.985 0 0 1 3.982 3.983 3.985 3.985 0 0 1-3.982 3.982z" />
+                    </g>
+                  </svg>
+
+                  <span>Settings</span>
+                </a>
+              </mat-list-item>
+              <mat-list-item>
+                <a routerLink="/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+                    <g fill="#4a4a4a" fill-rule="evenodd">
+                      <path
+                        d="M24.69 11.845l-2.674-2.063c-.485-.374-1.155.007-1.155.655v1.262H8.017c-.404 0-.732.358-.732.801 0 .443.328.801.732.801h12.844v1.262c0 .652.673 1.026 1.155.655l2.674-2.063c.409-.315.417-.988 0-1.31z" />
+                      <path
+                        d="M20.683 18.478c-.35-.221-.799-.09-1.001.293-1.72 3.254-4.6 4.605-8.276 4.605-5.481 0-9.941-4.879-9.941-10.876s4.46-10.876 9.941-10.876c3.678 0 6.29 1.38 8.009 4.632.202.383.65.514 1 .293.35-.222.47-.712.268-1.095C18.703 1.71 15.612.02 11.406.02 5.102.021 0 5.602 0 12.5c0 6.897 5.102 12.479 11.406 12.479 4.208 0 7.566-1.665 9.544-5.406.202-.383.083-.873-.267-1.095z" />
+                    </g>
+                  </svg>
+                  <span> Logout</span>
+                </a>
+              </mat-list-item>
+            </mat-list>
+          </div>
+        </div>
+      </mat-card>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-sm-6 col-lg-6 col-xl12">
+      <div class="example-container">
+        <h2>1550 tires found</h2>
+        <!--
+        <div cdkDropList #todoList="cdkDropList" [cdkDropListData]="todo" [cdkDropListConnectedTo]="[doneList]"
+          class="example-list" (cdkDropListDropped)="drop($event)">
+          <div class="example-box" *ngFor="let item of todo" cdkDrag>{{item}}</div>
+        </div> -->
+      </div>
+      <div class="tires-list-section">
+        <cdk-virtual-scroll-viewport itemSize="5" class="example-viewport">
+          <!--START:DropArea1-->
+          <mat-card ngClass="tires-list-panel" 
+          cdkDropList
+          #productListOneList="cdkDropList"
+          [cdkDropListData]="productListOne"
+          [cdkDropListConnectedTo]="[productListTwoList]"
+          style="min-height: 400px;"
+          (cdkDropListDropped)="drop($event)">
+            <mat-card ngClass="tires-list-item" *ngFor="let item of productListOne" cdkDrag>
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  <!-- tire reference -->
+                  {{item.SeriesNo}}
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>{{item.Name}}</h3><!-- Hankook -->                  
+                  <p>{{item.Code}}</p><!-- Dynapro HT RH12 -->
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <!-- <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+            <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card> -->
+          </mat-card>
+          <!--END:DropArea1-->
+        </cdk-virtual-scroll-viewport>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-6 col-lg-6 col-xl12">
+
+      <mat-tab-group mat-stretch-tabs>
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+              <defs>
+                <linearGradient id="a" x1="0%" y1="0%" y2="100%">
+                  <stop offset="0%" stop-color="#5CBB34" />
+                  <stop offset="100%" stop-color="#268200" />
+                </linearGradient>
+              </defs>
+              <g fill="#4a4a4a" fill-rule="nonzero" transform="translate(-33 -7)">
+                <path
+                  d="M56.706 16.87l-1.754-.298a9.902 9.902 0 0 0-.705-1.701l1.034-1.446a1.539 1.539 0 0 0-.167-1.989l-1.556-1.555a1.532 1.532 0 0 0-1.983-.167l-1.45 1.033a9.8 9.8 0 0 0-1.765-.725l-.292-1.733A1.542 1.542 0 0 0 46.544 7h-2.197c-.757 0-1.4.543-1.524 1.29l-.303 1.774a9.658 9.658 0 0 0-1.696.715l-1.436-1.034a1.532 1.532 0 0 0-.897-.287c-.413 0-.804.162-1.091.454l-1.56 1.556a1.545 1.545 0 0 0-.168 1.988l1.044 1.467a9.672 9.672 0 0 0-.694 1.706l-1.733.293A1.542 1.542 0 0 0 33 18.446v2.197c0 .757.543 1.399 1.29 1.524l1.774.303c.182.584.422 1.153.715 1.696l-1.028 1.43a1.539 1.539 0 0 0 .167 1.989l1.555 1.555a1.532 1.532 0 0 0 1.983.167l1.467-1.044c.527.277 1.08.501 1.649.679l.292 1.753c.126.747.768 1.29 1.524 1.29h2.203c.757 0 1.399-.543 1.524-1.29l.297-1.753a9.902 9.902 0 0 0 1.702-.705l1.445 1.033c.261.188.575.287.898.287.413 0 .799-.161 1.091-.454l1.555-1.555a1.545 1.545 0 0 0 .167-1.988l-1.033-1.451a9.831 9.831 0 0 0 .705-1.702l1.753-.292a1.542 1.542 0 0 0 1.29-1.524v-2.197a1.523 1.523 0 0 0-1.28-1.524zm-.12 3.72a.135.135 0 0 1-.115.137l-2.192.365a.7.7 0 0 0-.564.517 8.355 8.355 0 0 1-.908 2.186c-.141.24-.13.538.031.768l1.29 1.816a.142.142 0 0 1-.016.177l-1.556 1.556a.133.133 0 0 1-.099.041.128.128 0 0 1-.078-.026l-1.811-1.289a.705.705 0 0 0-.767-.031c-.684.407-1.42.71-2.187.908a.693.693 0 0 0-.517.564l-.37 2.192a.135.135 0 0 1-.136.115h-2.197a.135.135 0 0 1-.136-.115l-.366-2.192a.7.7 0 0 0-.516-.564 8.676 8.676 0 0 1-2.14-.877.722.722 0 0 0-.355-.094.687.687 0 0 0-.407.13l-1.827 1.3a.155.155 0 0 1-.078.026.14.14 0 0 1-.1-.041l-1.555-1.556a.142.142 0 0 1-.015-.177l1.284-1.8a.715.715 0 0 0 .031-.773 8.276 8.276 0 0 1-.919-2.182.715.715 0 0 0-.563-.516l-2.208-.376a.135.135 0 0 1-.115-.136v-2.197c0-.068.047-.125.115-.136l2.176-.365a.706.706 0 0 0 .57-.522c.192-.767.49-1.509.892-2.192a.697.697 0 0 0-.037-.762l-1.3-1.827a.142.142 0 0 1 .016-.177l1.556-1.556a.133.133 0 0 1 .099-.042c.031 0 .057.01.078.027l1.8 1.284c.23.161.533.172.773.03a8.276 8.276 0 0 1 2.182-.918.715.715 0 0 0 .517-.563l.375-2.208a.135.135 0 0 1 .136-.115h2.197c.068 0 .126.047.136.115l.365 2.176c.047.277.25.501.522.57.788.197 1.54.505 2.24.918.24.14.537.13.767-.032l1.8-1.294a.155.155 0 0 1 .078-.026.14.14 0 0 1 .1.042l1.555 1.555c.047.047.052.12.016.177l-1.29 1.812a.705.705 0 0 0-.03.767c.406.683.709 1.42.907 2.187a.693.693 0 0 0 .564.516l2.192.37c.068.011.115.069.115.137v2.197h-.005z" />
+                <path
+                  d="M45.495 14.098a5.395 5.395 0 0 0-5.392 5.392 5.395 5.395 0 0 0 5.392 5.391 5.395 5.395 0 0 0 5.391-5.391 5.395 5.395 0 0 0-5.391-5.392zm0 9.374a3.985 3.985 0 0 1-3.982-3.982 3.985 3.985 0 0 1 3.982-3.983 3.985 3.985 0 0 1 3.982 3.983 3.985 3.985 0 0 1-3.982 3.982z" />
+              </g>
+            </svg>
+            Comparison
+          </ng-template>
+
+          <div class="example-container">
+            <div class="comparison-panel">
+              <h3>Comparison Panel</h3>
+              <small>After tires are added, use filters to display results</small>
+            </div>
+          </div>
+
+          <!--START:DropArea2-->
+          <div 
+          cdkDropList
+          #productListTwoList="cdkDropList"
+          [cdkDropListData]="productListTwo"
+          [cdkDropListConnectedTo]="[productListOneList]"
+          class="drop-areabox"
+          (cdkDropListDropped)="drop($event)">
+
+            <mat-card ngClass="tires-list-item" *ngFor="let item of productListTwo" cdkDrag>
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  <!-- tire reference -->
+                  {{item.SeriesNo}}
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>{{item.Name}}</h3><!-- Hankook -->                  
+                  <p>{{item.Code}}</p><!-- Dynapro HT RH12  -->
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card>
+
+            <!-- <mat-card ngClass="tires-list-item">
+              <mat-card ngClass="tires-list-item-inner">
+                <img src="assets/images/tires.jpg" alt="">
+                <mat-card ngClass="tires-starbox">
+                  <img src="assets/images/star.svg" alt="">
+                  tire reference
+                </mat-card>
+                <mat-card ngClass="tires-list-detail">
+                  <h3>Hankook</h3>
+                  <p>Dynapro HT RH12 </p>
+                </mat-card>
+                <mat-card ngClass="tires-delete"><img _ngcontent-tem-c28="" src="assets/images/group-5.svg"></mat-card>
+                <mat-card ngClass="tires-more-icon"><img _ngcontent-tem-c28="" src="assets/images/group-16.svg">
+                </mat-card>
+              </mat-card>
+            </mat-card> -->
+
+            <mat-card ngClass="plus-btn">
+              <img src="assets/images/plus.svg" alt="">
+              <P>drop product</P>
+            </mat-card>
+          </div>
+          <!--END:DropArea2-->
+
+          <mat-card ngClass="selectdata-section">
+            <div ngClass="selectdata-inner" [ngClass]="status ? 'selectdata-open' : 'selectdata-close'">
+              <div class="selectdata-arrowbox" (click)="clickEvent()"><img src="assets/images/arrow-1.svg"> Select data
+                to display</div>
+              <mat-card ngClass="sel-da-scrool">
+                <mat-card ngClass="sel-da-btn-panel">
+                  <button mat-button><img src="assets/images/clear-icon.png" alt="">
+                    <p>Clear</p>
+                  </button>
+                  <button mat-button><img src="assets/images/all-icon.png" alt="">
+                    <p>All</p>
+                  </button>
+                  <button mat-button><img src="assets/images/reset-icon.png" alt="">
+                    <p>Reset</p>
+                  </button>
+
+
+                </mat-card>
+                <mat-card ngClass="sel-da-btn-panel">
+                  <h3>Product Line Level information</h3>
+                  <button mat-button><img src="assets/images/season-icon.svg" alt="">
+                    <p>Season</p>
+                  </button>
+                  <button mat-button><img src="assets/images/dDate-icon.png" alt="">
+                    <p>Introduction Date</p>
+                  </button>
+                  <button mat-button><img src="assets/images/hastag.svg" alt="">
+                    <p>Marketing Description</p>
+                  </button>
+                  <button mat-button><img src="assets/images/manufacturer-icon.png" alt="">
+                    <p>Manufacturer Warranty</p>
+                  </button>
+                  <button mat-button><img src="assets/images/group-2.svg" alt="">
+                    <p>UTQG</p>
+                  </button>
+
+                  <button mat-button><img src="assets/images/image.svg" alt="">
+                    <p>Picture Logo</p>
+                  </button>
+                  <button mat-button><img src="assets/images/endpoints.svg" alt="">
+                    <p>Segmentation</p>
+                  </button>
+                  <button mat-button><img src="assets/images/theater-masks.svg" alt="">
+                    <p>Consumer sentiment</p>
+                  </button>
+                  <button mat-button><img src="assets/images/numbered-list.svg" alt="">
+                    <p>N° of size availbles</p>
+                  </button>
+
+                </mat-card>
+
+                <mat-card ngClass="sel-da-btn-panel">
+                  <h3>Product Line Level information</h3>
+                  <small>Pick up maximum 6 different data to display</small>
+                  <button mat-button><img src="assets/images/loadrange.png" alt="">
+                    <p>Load Range XL / LL</p>
+                  </button>
+                  <button mat-button><img src="assets/images/speedIndex.png" alt="">
+                    <p>Speed Index</p>
+                  </button>
+                  <button mat-button><img src="assets/images/loadIndex.png" alt="">
+                    <p>Load Index</p>
+                  </button>
+                  <button mat-button><img src="assets/images/sidewall.png" alt="">
+                    <p>Sidewall</p>
+                  </button>
+
+
+                </mat-card>
+
+
+
+
+              </mat-card>
+            </div>
+            <div class="selectdata-arrowbox" (click)="clickEvent()"><img src="assets/images/arrow-1.svg"> Select data to
+              display</div>
+
+            <div class="buttob-section">
+              <button mat-button ngClass="btn btn-Clear">Clear</button> <button mat-button
+                ngClass="btn btn-comparison">Run Comparison</button>
+            </div>
+          </mat-card>
+        </mat-tab>
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+              <g fill="none" fill-rule="nonzero" stroke="#4A4A4A" transform="translate(1 1)">
+                <rect width="25" height="3.941" rx="1.971" />
+                <rect width="18.478" height="3.941" x="3.261" y="7" rx="1.971" />
+                <rect width="11.957" height="3.941" x="6.522" y="14" rx="1.971" />
+                <rect width="7.609" height="3.941" x="8.696" y="21" rx="1.971" />
+              </g>
+            </svg>
+            Filters <span ngClass="red-notification"></span>
+          </ng-template>
+
+          <mat-card ngClass="filters">
+            <div class="filters-btn">
+              <button mat-button class="btn-click">Tiers<span ngClass="red-notification">2</span></button>
+              <button mat-button>Season</button>
+              <button mat-button>Segments</button>
+              <button mat-button>Technical Features</button>
+              <button mat-button>Intro Date</button>
+
+
+            </div>
+
+            <div class="brands">
+
+              <h4 class="btn-click">Brands</h4>
+
+
+              <mat-list role="list" ngClass="brands-list">
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands1.jpg" alt=""></div>
+                  <p>All</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands2.jpg" alt=""></div>
+                  <p>Avon Tyres</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands3.jpg" alt=""></div>
+                  <p>Cooper</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands4.jpg" alt=""></div>
+                  <p>BF Goodrich</p>
+                </mat-list-item>
+
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands5.jpg" alt=""></div>
+                  <p>Kumho</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands6.jpg" alt=""></div>
+                  <p>Nokian</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands7.jpg" alt=""></div>
+                  <p>General Tire</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands8.jpg" alt=""></div>
+                  <p>Bridgestone</p>
+                </mat-list-item>
+
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands9.jpg" alt=""></div>
+                  <p>Bridgestone</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands10.jpg" alt=""></div>
+                  <p>General Tire</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands11.jpg" alt=""></div>
+                  <p>Nokian</p>
+                </mat-list-item>
+                <mat-list-item role="listitem">
+                  <div ngClass="imagesbox"><img src="assets/images/brands12.jpg" alt=""></div>
+                  <p>Cooper</p>
+                </mat-list-item>
+
+              </mat-list>
+
+
+            </div>
+
+          </mat-card>
+
+
+          <mat-card ngClass="selectdata-section">
+            <div ngClass="selectdata-inner" [ngClass]="status ? 'selectdata-open' : 'selectdata-close'">
+              <div class="selectdata-arrowbox" (click)="clickEvent()"><img src="assets/images/arrow-1.svg"> Select data
+                to display</div>
+              <mat-card ngClass="sel-da-scrool">
+                <mat-card ngClass="sel-da-btn-panel">
+                  <button mat-button><img src="assets/images/clear-icon.png" alt="">
+                    <p>Clear</p>
+                  </button>
+                  <button mat-button><img src="assets/images/all-icon.png" alt="">
+                    <p>All</p>
+                  </button>
+                  <button mat-button><img src="assets/images/reset-icon.png" alt="">
+                    <p>Reset</p>
+                  </button>
+
+
+                </mat-card>
+                <mat-card ngClass="sel-da-btn-panel">
+                  <h3>Product Line Level information</h3>
+                  <button mat-button><img src="assets/images/season-icon.svg" alt="">
+                    <p>Season</p>
+                  </button>
+                  <button mat-button><img src="assets/images/dDate-icon.png" alt="">
+                    <p>Introduction Date</p>
+                  </button>
+                  <button mat-button><img src="assets/images/hastag.svg" alt="">
+                    <p>Marketing Description</p>
+                  </button>
+                  <button mat-button><img src="assets/images/manufacturer-icon.png" alt="">
+                    <p>Manufacturer Warranty</p>
+                  </button>
+                  <button mat-button><img src="assets/images/group-2.svg" alt="">
+                    <p>UTQG</p>
+                  </button>
+
+                  <button mat-button><img src="assets/images/image.svg" alt="">
+                    <p>Picture Logo</p>
+                  </button>
+                  <button mat-button><img src="assets/images/endpoints.svg" alt="">
+                    <p>Segmentation</p>
+                  </button>
+                  <button mat-button><img src="assets/images/theater-masks.svg" alt="">
+                    <p>Consumer sentiment</p>
+                  </button>
+                  <button mat-button><img src="assets/images/numbered-list.svg" alt="">
+                    <p>N° of size availbles</p>
+                  </button>
+
+                </mat-card>
+
+                <mat-card ngClass="sel-da-btn-panel">
+                  <h3>Product Line Level information</h3>
+                  <small>Pick up maximum 6 different data to display</small>
+                  <button mat-button><img src="assets/images/loadrange.png" alt="">
+                    <p>Load Range XL / LL</p>
+                  </button>
+                  <button mat-button><img src="assets/images/speedIndex.png" alt="">
+                    <p>Speed Index</p>
+                  </button>
+                  <button mat-button><img src="assets/images/loadIndex.png" alt="">
+                    <p>Load Index</p>
+                  </button>
+                  <button mat-button><img src="assets/images/sidewall.png" alt="">
+                    <p>Sidewall</p>
+                  </button>
+
+
+                </mat-card>
+
+
+
+
+              </mat-card>
+
+
+            </div>
+            <div class="selectdata-arrowbox" (click)="clickEvent()"><img src="assets/images/arrow-1.svg"> Select data to
+              display</div>
+
+            <div class="buttob-section">
+              <button mat-button ngClass="btn btn-Clear">Clear</button> <button mat-button
+                ngClass="btn btn-comparison">Run Comparison</button>
+            </div>
+          </mat-card>
+
+
+        </mat-tab>
+        <mat-tab>
+          <ng-template mat-tab-label>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+              <g fill="#4A4A4A" fill-rule="evenodd">
+                <path
+                  d="M24.068 19.599c-.043-.377-.294-.633-.56-.571-.267.06-.447.416-.404.792l.27 2.355-10.007-9.66 10.007-9.659-.27 2.355c-.043.376.137.731.404.792a.352.352 0 0 0 .079.01c.235 0 .442-.242.481-.581l.453-3.943c.043-.377-.137-.731-.404-.793L21.33.056c-.266-.061-.518.195-.56.571-.044.377.137.732.403.793l1.581.363L12.5 11.679 6.588 5.973c-.223-.215-.527-.134-.68.18-.151.316-.094.746.129.96l5.597 5.403-10.008 9.659.27-2.355c.044-.376-.137-.73-.404-.792-.266-.061-.517.194-.56.571l-.453 3.943c-.043.377.138.731.404.793l2.789.64a.352.352 0 0 0 .079.009c.235 0 .442-.241.481-.58.043-.377-.137-.732-.404-.793l-1.581-.363L12.5 13.352l10.253 9.896-1.581.363c-.266.061-.447.416-.404.793.039.339.246.58.482.58a.352.352 0 0 0 .079-.01l2.788-.64c.267-.06.447-.416.404-.792l-.453-3.943zM5.389 4.815L2.247 1.783l1.581-.363c.267-.061.447-.416.404-.793-.043-.376-.294-.633-.56-.57L.883.696c-.266.06-.447.415-.404.792l.453 3.943c.039.34.246.58.482.58a.352.352 0 0 0 .079-.009c.266-.061.447-.416.403-.792l-.27-2.355 3.212 3.1c.084.081.18.12.275.12.156 0 .309-.105.404-.301.152-.315.094-.745-.128-.96z" />
+              </g>
+            </svg>
+            Dimension
+          </ng-template>
+          <mat-card ngClass="dimension-section">
+            <form class="example-form align-items-baseline justify-content-center">
+              <mat-form-field appearance="outline">
+                <mat-label>Rim size</mat-label>
+                <mat-select>
+                  <mat-option> 1 Rim size </mat-option>
+                  <mat-option> 2 Rim size </mat-option>
+                  <mat-option> 3 Rim size </mat-option>
+                  <mat-option> 4 Rim size </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field appearance="outline">
+                <mat-label>Speed Index</mat-label>
+                <mat-select>
+                  <mat-option> 1 Speed Index </mat-option>
+                  <mat-option> 2 Speed Index </mat-option>
+                  <mat-option> 3 Speed Index </mat-option>
+                  <mat-option> 4 Speed Index </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+              <mat-form-field appearance="outline">
+                <mat-label>Load Index</mat-label>
+                <mat-select>
+                  <mat-option> 1 Load Index </mat-option>
+                  <mat-option> 2 Load Index </mat-option>
+                  <mat-option> 3 Load Index </mat-option>
+                  <mat-option> 4 Load Index </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+
+
+            </form>
+            <img src="../../assets/images/group-2004.svg" alt="">
+          </mat-card>
+
+          <mat-card ngClass="selectdata-section">
+            <div ngClass="selectdata-inner" [ngClass]="status ? 'selectdata-open' : 'selectdata-close'">
+              <div class="selectdata-arrowbox" (click)="clickEvent()"><img src="assets/images/arrow-1.svg"> Select data
+                to display</div>
+              <mat-card ngClass="sel-da-scrool">
+                <mat-card ngClass="sel-da-btn-panel">
+                  <button mat-button><img src="assets/images/clear-icon.png" alt="">
+                    <p>Clear</p>
+                  </button>
+                  <button mat-button><img src="assets/images/all-icon.png" alt="">
+                    <p>All</p>
+                  </button>
+                  <button mat-button><img src="assets/images/reset-icon.png" alt="">
+                    <p>Reset</p>
+                  </button>
+
+
+                </mat-card>
+                <mat-card ngClass="sel-da-btn-panel">
+                  <h3>Product Line Level information</h3>
+                  <button mat-button><img src="assets/images/season-icon.svg" alt="">
+                    <p>Season</p>
+                  </button>
+                  <button mat-button><img src="assets/images/dDate-icon.png" alt="">
+                    <p>Introduction Date</p>
+                  </button>
+                  <button mat-button><img src="assets/images/hastag.svg" alt="">
+                    <p>Marketing Description</p>
+                  </button>
+                  <button mat-button><img src="assets/images/manufacturer-icon.png" alt="">
+                    <p>Manufacturer Warranty</p>
+                  </button>
+                  <button mat-button><img src="assets/images/group-2.svg" alt="">
+                    <p>UTQG</p>
+                  </button>
+
+                  <button mat-button><img src="assets/images/image.svg" alt="">
+                    <p>Picture Logo</p>
+                  </button>
+                  <button mat-button><img src="assets/images/endpoints.svg" alt="">
+                    <p>Segmentation</p>
+                  </button>
+                  <button mat-button><img src="assets/images/theater-masks.svg" alt="">
+                    <p>Consumer sentiment</p>
+                  </button>
+                  <button mat-button><img src="assets/images/numbered-list.svg" alt="">
+                    <p>N° of size availbles</p>
+                  </button>
+
+                </mat-card>
+
+                <mat-card ngClass="sel-da-btn-panel">
+                  <h3>Product Line Level information</h3>
+                  <small>Pick up maximum 6 different data to display</small>
+                  <button mat-button><img src="assets/images/loadrange.png" alt="">
+                    <p>Load Range XL / LL</p>
+                  </button>
+                  <button mat-button><img src="assets/images/speedIndex.png" alt="">
+                    <p>Speed Index</p>
+                  </button>
+                  <button mat-button><img src="assets/images/loadIndex.png" alt="">
+                    <p>Load Index</p>
+                  </button>
+                  <button mat-button><img src="assets/images/sidewall.png" alt="">
+                    <p>Sidewall</p>
+                  </button>
+
+
+                </mat-card>
+
+
+
+
+              </mat-card>
+
+
+            </div>
+            <div class="selectdata-arrowbox" (click)="clickEvent()"><img src="assets/images/arrow-1.svg"> Select data to
+              display</div>
+
+            <div class="buttob-section">
+              <button mat-button ngClass="btn btn-Clear">Clear</button> <button mat-button
+                ngClass="btn btn-comparison">Run Comparison</button>
+            </div>
+          </mat-card>
+
+
+        </mat-tab>
+
+      </mat-tab-group>
+
+
+
+    </div>
+  </div>
+  <mat-card ngClass="pophover-box pophover-tiersbtn">
+    <mat-card ngClass="pophover-row">
+      <button mat-button><img src="assets/images/clear-icon.png" alt="">
+        <p>Clear</p>
+      </button>
+      <button mat-button><img src="assets/images/all-icon.png" alt="">
+        <p>All</p>
+      </button>
+      <button mat-button><img src="assets/images/reset-icon.png" alt="">
+        <p>Reset</p>
+      </button>
+    </mat-card>
+    <mat-divider></mat-divider>
+    <mat-card ngClass="pophover-row">
+      <button mat-button><img src="assets/images/tires1.png" alt="">
+        <p>T1 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/tires2.png" alt="">
+        <p>T2 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/tires3.png" alt="">
+        <p>T3 Tires</p>
+      </button>
+    </mat-card>
+  </mat-card>
+
+
+  <mat-card ngClass="pophover-box two pophover-tiersbtn">
+    <mat-card ngClass="pophover-row">
+      <button mat-button><img src="assets/images/clear-icon.png" alt="">
+        <p>Clear</p>
+      </button>
+
+    </mat-card>
+    <h3>CUV</h3>
+    <mat-divider></mat-divider>
+    <mat-card ngClass="pophover-row">
+      <button mat-button><img src="assets/images/CUV.svg" alt="">
+        <p>Clear</p>
+      </button>
+      <button mat-button><img src="assets/images/CUV.svg" alt="">
+        <p>T2 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/CUV.svg" alt="">
+        <p>T3 Tires</p>
+      </button>
+    </mat-card>
+
+    <h3>LT</h3>
+    <mat-divider></mat-divider>
+    <mat-card ngClass="pophover-row">
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>Clear</p>
+      </button>
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>T2 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>T3 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>Clear</p>
+      </button>
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>T2 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>T3 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/LT.svg" alt="">
+        <p>T3 Tires</p>
+      </button>
+    </mat-card>
+
+    <h3>Car</h3>
+    <mat-divider></mat-divider>
+    <mat-card ngClass="pophover-row">
+      <button mat-button><img src="assets/images/Car-icon.svg" alt="">
+        <p>Clear</p>
+      </button>
+      <button mat-button><img src="assets/images/Car-icon.svg" alt="">
+        <p>T2 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/Car-icon.svg" alt="">
+        <p>T3 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/Car-icon.svg" alt="">
+        <p>T2 Tires</p>
+      </button>
+      <button mat-button><img src="assets/images/Car-icon.svg" alt="">
+        <p>T3 Tires</p>
+      </button>
+    </mat-card>
+
+  </mat-card>
+
+
+
+</div>
